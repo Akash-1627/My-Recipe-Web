@@ -25,7 +25,7 @@ search.addEventListener("keypress", function(e){
         if(bool){
             if(search.value!=""){
 
-                featured.innerHTML = search.value;
+                featured.innerHTML = "Results based on "+'"'+ search.value+'"';
             }
             else{
                 featured.innerHTML = "Some Featured Recipes";
