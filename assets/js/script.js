@@ -13,8 +13,8 @@ search.addEventListener("keypress", function(e){
             let title = element.getElementsByTagName("h5")[0].innerText.toLowerCase();
 
             if(title.includes(searchval)){
-                nodata.style.display = "none";
                 element.style.display = "block";
+                nodata.style.display = "none";
                 bool = true;
             }
             else{
